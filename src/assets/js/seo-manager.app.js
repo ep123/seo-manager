@@ -17019,7 +17019,6 @@ var render = function() {
       directives: [
         {
           name: "click-outside",
-          rawName: "v-click-outside",
           value: _vm.endEditing,
           expression: "endEditing"
         }
