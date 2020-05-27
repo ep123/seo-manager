@@ -16,15 +16,15 @@ class CreateLionixSeoManagerTable extends Migration
         Schema::create(config('seo-manager.database.table'), function (Blueprint $table) {
             $table->increments('id');
             $table->string('uri')->nullable();
-            $table->jsonb('params')->nullable();
-            $table->jsonb('mapping')->nullable();
-            $table->jsonb('keywords');
+            $table->string('params')->nullable();
+            $table->string('mapping')->nullable();
+            $table->string('keywords');
             $table->string('description')->nullable();
             $table->string('title')->nullable();
             $table->string('author')->nullable();
             $table->string('url')->nullable();
-            $table->jsonb('title_dynamic')->nullable();
-            $table->jsonb('og_data')->nullable();
+            $table->string('title_dynamic')->nullable();
+            $table->string('og_data')->nullable();
             $table->timestamps();
         });
     }

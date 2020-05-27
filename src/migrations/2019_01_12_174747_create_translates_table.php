@@ -18,12 +18,12 @@ class CreateTranslatesTable extends Migration
             $table->integer('route_id');
             $table->string('locale');
             $table->string('url')->nullable();
-            $table->jsonb('keywords')->nullable();
+            $table->string('keywords')->nullable();
             $table->string('description')->nullable();
             $table->string('title')->nullable();
             $table->string('author')->nullable();
-            $table->jsonb('title_dynamic')->nullable();
-            $table->jsonb('og_data')->nullable();
+            $table->string('title_dynamic')->nullable();
+            $table->string('og_data')->nullable();
             $table->timestamps();
         });
     }
