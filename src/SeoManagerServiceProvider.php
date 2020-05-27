@@ -20,6 +20,10 @@ class SeoManagerServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'seo-manager');
 
         $this->publishes([
+          __DIR__ . '/views' => resource_path('views/vendor/seo-manager'),
+        ], 'views');
+
+        $this->publishes([
             __DIR__ . '/config/seo-manager.php' => config_path('seo-manager.php'),
         ], 'config');
 
