@@ -1,5 +1,5 @@
 <template>
-    <tr v-click-outside="endEditing">
+    <tr>
         <th scope="row">
             <slot name="index"></slot>
         </th>
