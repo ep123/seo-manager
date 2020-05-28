@@ -1,13 +1,13 @@
 <template>
     <td>
         <button v-if="!editing" @click="startEditing" class="btn btn-rounded-circle btn-success start-editing">
-            <span class="fe fe-edit"></span>
+            <span class="fa fa-edit"></span>
         </button>
         <button v-else @click="endEditing" class="btn btn-rounded-circle btn-danger start-editing">
-            <span class="fe fe-x"></span>
+            <span class="fa fa-x"></span>
         </button>
         <button @click="deleteRoute" class="btn btn-rounded-circle btn-primary">
-            <span class="fe fe-trash"></span>
+            <span class="fa fa-trash"></span>
         </button>
     </td>
 </template>

@@ -16125,7 +16125,7 @@ var render = function() {
             staticClass: "btn btn-rounded-circle btn-success start-editing",
             on: { click: _vm.startEditing }
           },
-          [_c("span", { staticClass: "fe fe-edit" })]
+          [_c("span", { staticClass: "fa fa-edit" })]
         )
       : _c(
           "button",
@@ -16133,7 +16133,7 @@ var render = function() {
             staticClass: "btn btn-rounded-circle btn-danger start-editing",
             on: { click: _vm.endEditing }
           },
-          [_c("span", { staticClass: "fe fe-x" })]
+          [_c("span", { staticClass: "fa fa-x" })]
         ),
     _vm._v(" "),
     _c(
@@ -16142,7 +16142,7 @@ var render = function() {
         staticClass: "btn btn-rounded-circle btn-primary",
         on: { click: _vm.deleteRoute }
       },
-      [_c("span", { staticClass: "fe fe-trash" })]
+      [_c("span", { staticClass: "fa fa-trash" })]
     )
   ])
 }
@@ -20822,7 +20822,7 @@ var render = function() {
                       class: { active: _vm.activeTab === "fb" },
                       attrs: { href: "#!" }
                     },
-                    [_c("span", { staticClass: "fe fe-facebook" })]
+                    [_c("span", { staticClass: "fa fa-facebook" })]
                   )
                 ]
               )
@@ -21130,7 +21130,7 @@ var render = function() {
                                                                   [
                                                                     _c("i", {
                                                                       staticClass:
-                                                                        "fe fe-x"
+                                                                        "fa fa-x"
                                                                     })
                                                                   ]
                                                                 )
@@ -21166,7 +21166,7 @@ var render = function() {
                                                                   [
                                                                     _c("i", {
                                                                       staticClass:
-                                                                        "fe fe-link-2"
+                                                                        "fa fa-link-2"
                                                                     })
                                                                   ]
                                                                 )
@@ -21264,7 +21264,7 @@ var render = function() {
                                                               [
                                                                 _c("i", {
                                                                   staticClass:
-                                                                    "fe fe-x"
+                                                                    "fa fa-x"
                                                                 })
                                                               ]
                                                             )
@@ -21298,7 +21298,7 @@ var render = function() {
                                                               [
                                                                 _c("i", {
                                                                   staticClass:
-                                                                    "fe fe-link-2"
+                                                                    "fa fa-link-2"
                                                                 })
                                                               ]
                                                             )

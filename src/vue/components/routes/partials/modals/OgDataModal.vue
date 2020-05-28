@@ -56,14 +56,14 @@
                                                                 <button @click="removeMapping(key,dataKey)"
                                                                         class="btn btn-danger"
                                                                         type="button">
-                                                                    <i class="fe fe-x"></i>
+                                                                    <i class="fa fa-x"></i>
                                                                 </button>
                                                             </div>
                                                             <div v-else class="input-group-append">
                                                                 <button @click="setMapping(key,dataKey)"
                                                                         class="btn btn-primary"
                                                                         type="button">
-                                                                    <i class="fe fe-link-2"></i>
+                                                                    <i class="fa fa-link-2"></i>
                                                                 </button>
                                                             </div>
                                                         </div>
@@ -80,14 +80,14 @@
                                                             <button @click="removeMapping(key)"
                                                                     class="btn btn-danger"
                                                                     type="button">
-                                                                <i class="fe fe-x"></i>
+                                                                <i class="fa fa-x"></i>
                                                             </button>
                                                         </div>
                                                         <div v-else class="input-group-append">
                                                             <button @click="setMapping(key)"
                                                                     class="btn btn-primary"
                                                                     type="button">
-                                                                <i class="fe fe-link-2"></i>
+                                                                <i class="fa fa-link-2"></i>
                                                             </button>
                                                         </div>
 

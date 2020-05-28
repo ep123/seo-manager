@@ -13,13 +13,13 @@
                         <li class="nav-item" @click="changeTab('fb')">
                             <a href="#!" class="btn btn-rounded-circle btn-facebook"
                                :class="{active:activeTab === 'fb'}">
-                                <span class="fe fe-facebook"></span>
+                                <span class="fa fa-facebook"></span>
                             </a>
                         </li>
                         <!--<li class="nav-item" @click="changeTab('twitter')">-->
                             <!--<a href="#!" class="btn btn-rounded-circle btn-twitter"-->
                                <!--:class="{active:activeTab === 'twitter'}">-->
-                                <!--<span class="fe fe-twitter"></span>-->
+                                <!--<span class="fa fa-twitter"></span>-->
                             <!--</a>-->
                         <!--</li>-->
                     </ul>
