@@ -91,7 +91,6 @@ trait SeoManagerTrait
     {
         $routes = \Route::getRoutes();
         $getRoutes = array_keys($routes->get('GET'));
-        var_dump($this);die;
         foreach ($getRoutes as $key => $route) {
             foreach ($this->exceptRoutes as $rule) {
                 if (strpos($route, $rule) !== FALSE) {
